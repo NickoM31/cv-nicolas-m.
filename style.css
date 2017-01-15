@@ -1,3 +1,5 @@
-body{
-	background-color: orange;
-}
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss"; }
