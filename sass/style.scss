@@ -4,16 +4,14 @@
 
 $bgcolor :white;
 $fontFamily:garamond;
-$fontSize: 60px;
-
+// $fontSize: 60px;
 
 body{
 	background-color : $bgcolor;
 	font-family : $fontFamily;
-	font-size: 20px;
-
-	
+	font-size: 1.3em;
 }
+
 #container{
 	margin: auto;
 	border: 1px solid black;
@@ -22,21 +20,27 @@ body{
 }
 #entete{
 	border-bottom: 1px solid black;
+
 	background-color: #4183c4;
 	border-radius: 3em 0 3em 0;
-
 }
 
 img{
 	border-radius: 3em 0 3em 0;
 }
-// h1{
-// 	font-size : $fontSize;
-
-
-// }
-h2{
+h1{
 	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+h4{
+	font-size: 1em;
 }
 
 
